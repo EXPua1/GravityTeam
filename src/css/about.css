@@ -31,6 +31,7 @@
 
   padding: 32px 50px;
   position: relative;
+  margin-bottom: 128px;
 }
 
 .about_info h2 {
@@ -47,10 +48,9 @@
   line-height: 167%;
   text-align: center;
   color: #e5e5e5;
-  max-width: 162px;
 }
 .about_info {
-  padding: 32.09px 30.75px;
+  padding: 35px 31px;
 }
 
 .about_info:first-child {

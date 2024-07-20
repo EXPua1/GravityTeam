@@ -16,3 +16,23 @@
   display: flex;
   gap: 11px;
 }
+.header_btn button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+}
+
+select {
+  border: none;
+  color: #fff;
+}
+.custom-select-container::after {
+  content: '▼'; /* Символ стрелки вниз */
+  position: absolute;
+  right: 10px; /* Расположение стрелки справа */
+  top: 50%; /* Вертикальное центрирование */
+  transform: translateY(-50%); /* Центрирование по вертикали */
+  pointer-events: none; /* Чтобы клики по стрелке не блокировали клики по select */
+  font-size: 16px; /* Размер шрифта для стрелки */
+  color: #333; /* Цвет стрелки */
+}
