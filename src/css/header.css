@@ -1,21 +1,18 @@
-.header {
-  padding: 20px 0;
+.header_nav_list {
+  display: flex;
+  gap: 24px;
+}
+.header_nav_list {
+  padding: 32px 0 32px;
 }
 
-.nav-list {
+.header_container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: space-between;
 }
 
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
-}
-
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.header_btn {
+  display: flex;
+  gap: 11px;
 }

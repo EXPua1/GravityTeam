@@ -1,24 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load ="partials/header.html" />
 
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla App Template</title>
+  <style>
+
+  </style>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+
+  <header>
+    <div class="header_container container">
+      <img src="./img/logo-light.png.png" alt="">
+      <nav class="header_nav">
+        <ul class="header_nav_list">
+          <li>
+            <a href="">ABOUT US</a>
+          </li>
+          <li>
+            <select name="choice">
+              <option value="first"><a href="#">OUR SERVICES</a></option>
+            </select>
+          </li>
+          <li>
+            <a href="">WORK WITH US</a>
+          </li>
+          <li>
+            <a href="">BLOG</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header_btn">
+        <img src="./img/button_before.svg" alt="">
+        <button>GET IN TOUCH</button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- FIRST SECTION -->
+    <section class="">
+      <div class="container">
+        <div class="hero_container">
+          <h1 class="main_title"><span>BALANCING</span> <span>CRYPTO MARKET</span></h1>
+          <p class="main_par">Our fully automated proprietary quantitative trading software provides 24/7 liquidity to
+            170+ crypto assets
+            across 25+
+            centralized spot and derivative crypto exchanges.</p>
+          <button class="hero_btn">GET IN TOUCH</button>
+        </div>
+
+      </div>
+
+
+
     </section>
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+    <!-- SECTION 2 -->
+    <div>
 
-    <script type="module" src="./main.js"></script>
-  </body>
+
+
+    </div>
+  </main>
+  <footer>
+
+  </footer>
+
+
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>
