@@ -36,9 +36,13 @@
 .learn_more_arrow {
   border-bottom: 2px solid #5fa4e6;
 }
-
+.martketing_container_images_first {
+  width: 500px;
+}
 .images_container {
   position: relative;
+  bottom: -190px;
+  left: 220px;
 }
 .images_container img {
   display: flex;
@@ -90,4 +94,6 @@
 }
 .images_container_first {
   position: relative;
+  top: -322px;
+  left: 300px;
 }
