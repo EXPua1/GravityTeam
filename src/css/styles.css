@@ -38,3 +38,15 @@ option {
   margin: 0 auto;
   padding: 0 64px 0 64px;
 }
+
+.section_padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.trade_banner {
+  background-color: #fff;
+}
+
+.trade_bar_label {
+  color: black;
+}
