@@ -4,6 +4,7 @@
   | default @import url()
   |============================
 */
+@import 'node_modules/modern-normalize/modern-normalize.css';
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
@@ -12,6 +13,7 @@
 @import url('./about.css');
 @import url('./media.css');
 @import url('./marketing.css');
+@import url('./trade_banner.css');
 :root {
   --font-family: 'Inter', sans-serif;
   --second-family: 'Plus Jakarta Sans', sans-serif;
@@ -42,11 +44,4 @@ option {
 .section_padding {
   padding-top: 50px;
   padding-bottom: 50px;
-}
-.trade_banner {
-  background-color: #fff;
-}
-
-.trade_bar_label {
-  color: black;
 }

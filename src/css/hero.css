@@ -77,6 +77,10 @@
 
 .u_section {
   position: relative;
+  z-index: 1;
+  width: 100%;
+  margin-top: 128px;
+  margin-bottom: 128px;
 }
 .u-section--hero-home {
   display: flex;
